@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# 30 Day Challenge Webservice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This tool was created as a challenge in at a Hackergarten event in Zürich in February of 2025. The challenge that I (Patrick Scheller) created was to create a complete, albeit small, webservice in 1 evening using a nocode AI service.
 
-Currently, two official plugins are available:
+## Goals
+Features I wanted to implement are listed here. They were more guidelines to understand what the tool should do then hard requirements. We tried what we could and some features were easier and faster to implement than others and not because of technical difficulties with the features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tools Used
+* Tempo Labs AI
+	* ReactJs
+	* Vite
+* Supabase
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Conclusions
+It was ambitious to achieve and I wondered how it will be to work as a team on this together.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Participants & Thanks
+These guys worked very hard with me to get this done. Thanks a lot to their enthusiasm and to [Quatico](https://www.quatico.com/) (hoster of the Hackergarten) and [TempoLabs](https://www.tempo.new/) for their support.
+* Alexis Darrasse
+* Vitali ...

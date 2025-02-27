@@ -85,7 +85,3 @@ function App() {
         </main>
       </div>
     </Suspense>
-  );
-}
-
-export default App;

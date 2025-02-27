@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./lib/auth";
-
 import { TempoDevtools } from "tempo-devtools";
 TempoDevtools.init();
 
